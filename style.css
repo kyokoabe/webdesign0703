@@ -1,0 +1,184 @@
+@charset "UTF-8";
+
+body{display:block;
+     font-family:"Yu Gothic Medium","游ゴシック　Medium",YuGothic,"ヒラギノ角ゴ　Pro W3",sans-serif;
+       line-height:1.7;
+       color:#432;
+       width: 90%;
+       height: auto;
+       margin:0 auto;
+       background-image: url(img/haikei.jpg);
+       object-fit: cover;
+       background-repeat: repeat;
+       background-position: center top;}
+
+.page_header {height: 100px;}
+
+.logo {width: 100px;
+      height: 100px;
+      float: left;}
+
+.textbox{margin-left: 10px;
+         height: 80px;
+         float: left;}
+
+.title {font-size: 28px;}
+
+.subtitle {font-size: 14px;
+           text-align: end;}
+.phone {width: 200px;
+       height: 60px;
+       background-color:#FF9999;
+       color: #fff;
+       font-weight: bold;
+       float: right;
+       text-align: center;
+       margin-top: 20px;
+       font-size: 18px;
+       padding: 18px;
+       border-radius: 100vh;
+       border: none;
+       appearance: none;
+       cursor: pointer;}
+
+.top-menu{background-color: #006699;
+          padding:40px;}
+
+.menu {list-style: none;
+       text-align: center;
+       float: left;
+       width: 16%;
+       height: auto;
+       line-height: 50px;}
+
+.menu a{color:#fff;}
+
+.menu a:hover{background:#0bd;}
+
+.menu-link {text-decoration: none;
+            color:#fff;}
+.main-content {width: 90%;
+               margin: 0 auto;
+               padding-bottom: 30px;
+               position:relative;
+               margin:0 auto;}
+
+article img{margin-bottom: 20px;
+           height: auto;
+          width:1500px;
+          max-width:100%;}
+
+.main-pick {padding: 40px;
+            text-align: center;
+            color:#fff;}
+.main-pick{background-color: #006699;}
+.pickup-body {display: flex;
+              width: 100%;
+              margin: 30px auto;}
+.pickup-top {width: 30%;
+             height: 100%;
+             margin: 0 30px;}
+
+
+.pickup-box {width: 30%;
+             height: 100%;
+             margin: 0 30px;}
+
+.pickup-box-text {padding: 10px;}
+
+.about-body {width: 100%;
+             margin: 30px auto;}
+
+.about-box {display: flex;
+            width: 95%;
+            height: 50%;
+            margin: 0 auto;}
+
+.about-box-img {width: 40%;
+                height: 100%;
+                margin: 0 30px;}
+
+.about-box-movie {width: 50%;}
+
+.about-box-movie iframe {width: 100%;
+                         height: 100%;}
+
+.about-box-text {margin: 5%;}
+
+.kodawari-body {width: 100%;
+                margin: 30px auto;}
+
+.kodawari-box {width: 80%;
+              margin: 0 10%;
+              height: 100%;}
+
+.kodawari-img {float: left;
+               width: 300px;
+               padding: 0 20px 10px 0;}
+
+
+.info-body {text-align: center;
+            height: 80px;
+            margin: 40px 0;}
+
+
+
+.company-body{display: flex;
+              justify-content: space-between;}
+.company-box{width: 22%;}
+.company-box p{padding: 12px 10px}
+.company-map{width: 74%;}
+
+iframe{width:100%;}
+form{max-width: 290px;
+     margin: 0 auto;}
+form div{
+  padding:15px 0;
+  margin-bottom:30px;}
+label{font-size:1.125rem;
+      margin-bottom:20px;
+      display:block;}
+input[type="text"],
+input[type="email"],
+textarea{background: rgba(255,255,255,.5);
+         border:1px #fff solid;
+         border-radius: 5px;
+         padding: 10px;
+         font-size: 1rem;
+         margin-bottom: 5px;}
+input[type="text"],
+input[type="email"],{width:100%;
+                     max-width:240px;}
+textarea{width: 100%;
+         max-width: 480px;
+         height: 6rem;}
+input[type="submit"]{border:none;
+                     cursor:pointer;
+                     line-height:1;
+                     text-align: center;}
+
+.button {font-size: 1.375rem;
+          background: #FF9999;
+          color: #fff;
+          border-radius: 5px;
+          padding: 18px 32px;
+          text-align: center;}
+.button:hover{background:#FF3366;}
+
+
+.footer-box {float: left;
+             width: 80%;
+            margin-left: 5%;
+            list-style-type: none;
+             text-align: center;}
+
+.footer-menu {border: 1px solid #66CCFF;
+              width: 25%;
+              float: left;
+              line-height: 50px;
+              background-color: #006699;}
+.footer-menu:hover{background-color: #666699;}
+.fotter-menu a{color:#fff;}
+.wrapper {clear: left;
+          text-align: center;
+          margin-right: 30px;}
